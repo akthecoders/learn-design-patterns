@@ -1,7 +1,8 @@
 package Adapter;
 
-public class Duck implements Bird{
-    public void makeSound() {
-        System.out.println("Quack");
+public class Duck implements Bird {
+    @Override
+    public void speak() {
+        System.out.println("Duck can speaking");
     }
 }
