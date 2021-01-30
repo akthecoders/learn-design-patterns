@@ -1,8 +1,8 @@
 package Facade;
 
 public class Facade {
-    Rectangle rect;
-    Circle circle;
+    ShapeSystem rect;
+    ShapeSystem circle;
     public Facade() {
         this.rect = new Rectangle();
         this.circle = new Circle();
